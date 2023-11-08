@@ -70,7 +70,128 @@ export class PreguntasService {
         respuestas: ["1942", "1945", "1950", "1955"],
         correcta: "1945",
         puntuacion: 5
+      },
+      {
+        texto: "¿Qué animal es conocido por su larga trompa?",
+        respuestas: ["Elefante", "Jirafa", "León", "Cebra"],
+        correcta: "Elefante",
+        puntuacion: 7
+      },
+      {
+        texto: "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
+        respuestas: ["1776", "1789", "1801", "1824"],
+        correcta: "1776",
+        puntuacion: 10
+      },
+      {
+        texto: "¿Cuál es el planeta más cercano al Sol en nuestro sistema solar?",
+        respuestas: ["Venus", "Marte", "Júpiter", "Mercurio"],
+        correcta: "Mercurio",
+        puntuacion: 8
+      },
+      {
+        texto: "¿Quién escribió la obra de teatro 'Romeo y Julieta'?",
+        respuestas: ["William Shakespeare", "Charles Dickens", "Jane Austen", "F. Scott Fitzgerald"],
+        correcta: "William Shakespeare",
+        puntuacion: 7
+      },
+      {
+        texto: "¿Cuál es el quinto número primo?",
+        respuestas: ["2", "5", "9", "11"],
+        correcta: "11",
+        puntuacion: 6
+      },
+      {
+        texto: "¿Qué famosa pintura fue creada por Leonardo da Vinci?",
+        respuestas: ["La Última Cena", "La Noche Estrellada", "La Mona Lisa", "Los Girasoles"],
+        correcta: "La Mona Lisa",
+        puntuacion: 7
+      },
+      {
+        texto: "¿Cuál es la capital de Italia?",
+        respuestas: ["Berlín", "Madrid", "Roma", "París"],
+        correcta: "Roma",
+        puntuacion: 5
+      },
+      {
+        texto: "¿Qué elemento químico tiene el símbolo 'H'?",
+        respuestas: ["Helio", "Hidrógeno", "Hierro", "Hidrólisis"],
+        correcta: "Hidrógeno",
+        puntuacion: 6
+      },
+      {
+        texto: "¿Cuál es el océano más grande del mundo?",
+        respuestas: ["Océano Atlántico", "Océano Índico", "Océano Pacífico", "Océano Ártico"],
+        correcta: "Océano Pacífico",
+        puntuacion: 8
+      },
+      {
+        texto: "¿Quién escribió 'Don Quijote de la Mancha'?",
+        respuestas: ["Gabriel García Márquez", "Miguel de Cervantes", "Pablo Neruda", "Jorge Luis Borges"],
+        correcta: "Miguel de Cervantes",
+        puntuacion: 7
+      },
+      {
+        texto: "¿Cuál es el río más largo del mundo?",
+        respuestas: ["Nilo", "Amazonas", "Misisipi", "Danubio"],
+        correcta: "Amazonas",
+        puntuacion: 8
+      },
+      {
+        texto: "¿Cuál es el símbolo químico del oro?",
+        respuestas: ["Ag", "Fe", "Au", "Cu"],
+        correcta: "Au",
+        puntuacion: 6
+      },
+      {
+        texto: "¿Cuál es el planeta conocido como 'el planeta rojo'?",
+        respuestas: ["Marte", "Júpiter", "Saturno", "Neptuno"],
+        correcta: "Marte",
+        puntuacion: 7
+      },
+      {
+        texto: "¿Cuál es la capital de Japón?",
+        respuestas: ["Seúl", "Pekín", "Tokio", "Bangkok"],
+        correcta: "Tokio",
+        puntuacion: 5
+      },
+      {
+        texto: "¿Cuál es el símbolo químico del hidróxido de sodio?",
+        respuestas: ["NaOH", "H2SO4", "CO2", "HCl"],
+        correcta: "NaOH",
+        puntuacion: 6
+      },
+      {
+        texto: "¿Quién fue el primer presidente de los Estados Unidos?",
+        respuestas: ["Abraham Lincoln", "Thomas Jefferson", "George Washington", "John Adams"],
+        correcta: "George Washington",
+        puntuacion: 7
+      },
+      {
+        texto: "¿Cuál es el nombre del océano que se encuentra al este de África?",
+        respuestas: ["Océano Atlántico", "Océano Índico", "Océano Pacífico", "Mar Mediterráneo"],
+        correcta: "Océano Índico",
+        puntuacion: 6
+      },
+      {
+        texto: "¿Cuál es el animal terrestre más grande del mundo?",
+        respuestas: ["Elefante", "Rinoceronte", "Jirafa", "Hipopótamo"],
+        correcta: "Elefante",
+        puntuacion: 7
+      },
+      {
+        texto: "¿Quién formuló la teoría de la relatividad?",
+        respuestas: ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Stephen Hawking"],
+        correcta: "Albert Einstein",
+        puntuacion: 8
+      },
+      {
+        texto: "¿Cuál es el proceso de conversión de glucosa en energía en las células?",
+        respuestas: ["Fotosíntesis", "Respiración celular", "Fermentación", "Osmosis"],
+        correcta: "Respiración celular",
+        puntuacion: 6
       }
+
     ];
   }
   getOnePregunta(posicion: number): Pregunta {

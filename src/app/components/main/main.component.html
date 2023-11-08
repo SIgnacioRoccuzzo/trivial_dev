@@ -10,5 +10,10 @@
     <div class="feedback">
         <div *ngIf="respuestaCorrecta" class="respuesta-correcta animated">¡Respuesta Correcta!</div>
         <div *ngIf="respuestaIncorrecta" class="respuesta-incorrecta animated">Respuesta Incorrecta</div>
+        <div *ngIf="finDelTrivial">
+            <p *ngIf="numPreguntaActual === totalPreguntas - 1">Puntos obtenidos: {{ puntosTotales }}</p>
+            <p *ngIf="numPreguntaActual === totalPreguntas - 1">Correctas: {{ respuestasCorrectas }}</p>
+            <p *ngIf="numPreguntaActual === totalPreguntas - 1">Incorrectas: {{ respuestasIncorrectas }}</p>
+        </div>
     </div>
 </div>
