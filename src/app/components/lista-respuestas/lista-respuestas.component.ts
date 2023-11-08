@@ -7,6 +7,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 })
 export class ListaRespuestasComponent {
 
+
   @Output() respuestaok: EventEmitter<string>
   @Input() respuestas: string[];
 

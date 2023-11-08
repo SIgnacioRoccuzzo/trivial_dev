@@ -21,6 +21,10 @@ export class MainComponent {
   puntuacion: number;
   respuestaCorrecta: boolean = false;
   respuestaIncorrecta: boolean = false;
+  finalizado: boolean = false;
+  respuestaSeleccionada: boolean = false;
+
+
 
   preguntasService = inject(PreguntasService)
 
@@ -52,24 +56,41 @@ export class MainComponent {
     } else {
       setTimeout(() => {
         this.siguientePregunta();
-      }, 500);
+      }, 1000);
     }
   }
 
   finalizarTrivial() {
     this.finDelTrivial = true;
     this.puntosTotales = this.puntos;
-
   }
+
+
 
   mostrarAlerta(message: string) {
     alert(message);
   }
 
   siguientePregunta() {
-    this.numPreguntaActual++;
-    this.ngOnInit();
+    if (!this.finDelTrivial) {
+      this.numPreguntaActual++;
+      this.ngOnInit();
+      this.respuestaCorrecta = false;
+      this.respuestaIncorrecta = false;
+    }
+  }
+  reiniciarTrivia() {
+    this.finDelTrivial = false;
+    this.puntosTotales = 0;
+    this.respuestasCorrectas = 0;
+    this.respuestasIncorrectas = 0;
+    this.numPreguntaActual = 0;
+    this.puntuacion = 0;
     this.respuestaCorrecta = false;
     this.respuestaIncorrecta = false;
+    this.preguntaActual = this.preguntasService.getPregunta(this.numPreguntaActual);
   }
+
+
+
 }

@@ -1,6 +1,6 @@
 <div class="trivial-container">
     <h1>Trivial Game</h1>
-    <div class="preguntaActual" *ngIf="preguntaActual">
+    <div class="preguntaActual" *ngIf="preguntaActual && !finDelTrivial">
         <app-pregunta [texto]="preguntaActual.texto"></app-pregunta>
         <div class="respuesta-container">
             <lista-respuestas [respuestas]="preguntaActual.respuestas"
@@ -11,9 +11,10 @@
         <div *ngIf="respuestaCorrecta" class="respuesta-correcta animated">¡Respuesta Correcta!</div>
         <div *ngIf="respuestaIncorrecta" class="respuesta-incorrecta animated">Respuesta Incorrecta</div>
         <div *ngIf="finDelTrivial">
-            <p *ngIf="numPreguntaActual === totalPreguntas - 1">Puntos obtenidos: {{ puntosTotales }}</p>
-            <p *ngIf="numPreguntaActual === totalPreguntas - 1">Correctas: {{ respuestasCorrectas }}</p>
-            <p *ngIf="numPreguntaActual === totalPreguntas - 1">Incorrectas: {{ respuestasIncorrectas }}</p>
+            <p>Puntos obtenidos: {{ puntosTotales }}</p>
+            <p>Correctas: {{ respuestasCorrectas }}</p>
+            <p>Incorrectas: {{ respuestasIncorrectas }}</p>
+            <button (click)="reiniciarTrivia()">Volver a Jugar</button>
         </div>
     </div>
 </div>
