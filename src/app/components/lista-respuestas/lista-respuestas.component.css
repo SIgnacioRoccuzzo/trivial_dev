@@ -1,0 +1,29 @@
+.respuesta {
+    text-align: center;
+}
+
+.respuesta h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.respuesta button {
+    background-color: #BD93D8;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.respuesta button:hover {
+    background-color: #7BCDBA;
+}
+
+/* Estilo para el botón seleccionado (puedes usar una clase de Angular para esto) */
+.respuesta button.selected {
+    background-color: #27ae60;
+}

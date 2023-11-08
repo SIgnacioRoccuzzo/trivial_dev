@@ -1,0 +1,19 @@
+.pregunta {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.pregunta h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.pregunta h2 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
