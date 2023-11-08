@@ -23,7 +23,6 @@
     background-color: #7BCDBA;
 }
 
-/* Estilo para el botón seleccionado (puedes usar una clase de Angular para esto) */
 .respuesta button.selected {
     background-color: #27ae60;
 }

@@ -194,8 +194,8 @@ export class PreguntasService {
 
     ];
   }
-  getOnePregunta(posicion: number): Pregunta {
-    return this.arrPreguntas[posicion];
+  getPregunta(pos: number): Pregunta {
+    return this.arrPreguntas[pos];
   }
 
 

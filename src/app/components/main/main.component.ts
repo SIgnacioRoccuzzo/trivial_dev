@@ -2,24 +2,28 @@ import { Component, inject } from '@angular/core';
 import { Pregunta } from 'src/app/interface/pregunta.interface';
 import { PreguntasService } from 'src/app/services/preguntas.service';
 
+
 @Component({
   selector: 'app-main',
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.css']
 })
 export class MainComponent {
-  numPreguntaActual: number;
-  preguntaActual: Pregunta | undefined;
-  puntuacion: number;
-  respuestaCorrecta: boolean = false;
-  respuestaIncorrecta: boolean = false;
-  preguntasService = inject(PreguntasService)
+
   puntosTotales: number = 0;
   finDelTrivial: boolean = false;
   totalPreguntas: number = 30;
   puntos: number = 0
   respuestasCorrectas: number = 0;
   respuestasIncorrectas: number = 0;
+  numPreguntaActual: number;
+  preguntaActual: Pregunta | undefined;
+  puntuacion: number;
+  respuestaCorrecta: boolean = false;
+  respuestaIncorrecta: boolean = false;
+
+  preguntasService = inject(PreguntasService)
+
 
 
   constructor() {
@@ -28,19 +32,19 @@ export class MainComponent {
   }
 
   ngOnInit() {
-    this.cargarPregunta();
+    this.preguntaActual = this.preguntasService.getPregunta(this.numPreguntaActual);
   }
 
-  onRespuestaSelect(respuesta: string) {
-    if (this.preguntaActual?.correcta === respuesta) {
+  onRespuestaSelect($event: string) {
+    if (this.preguntaActual?.correcta === $event) {
       this.respuestaCorrecta = true;
       this.respuestaIncorrecta = false;
       this.puntos += this.preguntaActual.puntuacion;
-      this.respuestasCorrectas++; // Incrementa el contador de respuestas correctas
+      this.respuestasCorrectas++;
     } else {
       this.respuestaCorrecta = false;
       this.respuestaIncorrecta = true;
-      this.respuestasIncorrectas++; // Incrementa el contador de respuestas fallidas
+      this.respuestasIncorrectas++;
     }
 
     if (this.numPreguntaActual === this.totalPreguntas - 1) {
@@ -58,17 +62,13 @@ export class MainComponent {
 
   }
 
-  cargarPregunta() {
-    this.preguntaActual = this.preguntasService.getOnePregunta(this.numPreguntaActual);
-  }
-
   mostrarAlerta(message: string) {
     alert(message);
   }
 
   siguientePregunta() {
     this.numPreguntaActual++;
-    this.cargarPregunta();
+    this.ngOnInit();
     this.respuestaCorrecta = false;
     this.respuestaIncorrecta = false;
   }

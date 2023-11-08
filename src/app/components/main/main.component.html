@@ -1,7 +1,7 @@
 <div class="trivial-container">
     <h1>Trivial Game</h1>
     <div class="preguntaActual" *ngIf="preguntaActual">
-        <pregunta [texto]="preguntaActual.texto"></pregunta>
+        <app-pregunta [texto]="preguntaActual.texto"></app-pregunta>
         <div class="respuesta-container">
             <lista-respuestas [respuestas]="preguntaActual.respuestas"
                 (respuestaok)="onRespuestaSelect($event)"></lista-respuestas>
