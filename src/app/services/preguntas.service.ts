@@ -132,9 +132,9 @@ export class PreguntasService {
         puntuacion: 7
       },
       {
-        texto: "¿Cuál es el río más largo del mundo?",
-        respuestas: ["Nilo", "Amazonas", "Misisipi", "Danubio"],
-        correcta: "Amazonas",
+        texto: "¿Cuál es el río más ancho del mundo?",
+        respuestas: ["Nilo", "Amazonas", "Río de la Plata", "Danubio"],
+        correcta: "Río de la Plata",
         puntuacion: 8
       },
       {
