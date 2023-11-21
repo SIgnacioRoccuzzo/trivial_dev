@@ -1,5 +1,8 @@
 <div class="trivial-container">
-    <h1>Trivial Game</h1>
+    <div class="header-container">
+        <h1>Trivial Game</h1>
+        <figure><img src="../../../assets/images/diduknow.avif" alt="logo" class="logo"></figure>
+    </div>
     <div class="preguntaActual" *ngIf="preguntaActual && !finDelTrivial">
         <app-pregunta [texto]="preguntaActual.texto"></app-pregunta>
         <div class="respuesta-container">

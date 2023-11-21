@@ -9,7 +9,7 @@
 }
 
 .respuesta button {
-    background-color: #BD93D8;
+    background-color: gray;
     color: #fff;
     padding: 10px 20px;
     margin: 5px;
@@ -20,8 +20,9 @@
 }
 
 .respuesta button:hover {
-    background-color: #7BCDBA;
+    background-color: rgb(70, 70, 121)
 }
+
 
 .respuesta button.selected {
     background-color: #27ae60;

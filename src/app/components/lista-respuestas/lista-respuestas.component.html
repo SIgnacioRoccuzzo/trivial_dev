@@ -1,5 +1,6 @@
 <div class="respuesta">
     <h3>OPCIONES:</h3>
-    <button (click)="respuestaSelect(respuesta)" *ngFor="let respuesta of respuestas">{{respuesta}}</button>
-
+    <button (click)="respuestaSelect(respuesta)" *ngFor="let respuesta of respuestas; let i = index">
+        {{ 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'[i] }}: {{ respuesta }}
+    </button>
 </div>
