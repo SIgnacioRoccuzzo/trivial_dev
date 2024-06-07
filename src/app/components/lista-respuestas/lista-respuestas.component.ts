@@ -6,19 +6,11 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
   styleUrls: ['./lista-respuestas.component.css']
 })
 export class ListaRespuestasComponent {
+  @Output() respuestaok: EventEmitter<string> = new EventEmitter<string>();
+  @Input() respuestas: string[] = [];
 
-
-  @Output() respuestaok: EventEmitter<string>
-  @Input() respuestas: string[];
-
-  constructor() {
-
-    this.respuestas = [];
-    this.respuestaok = new EventEmitter()
-  }
   respuestaSelect(respuesta: string) {
-    this.respuestaok.emit(respuesta)
-    console.log(respuesta)
+    this.respuestaok.emit(respuesta);
+    console.log(respuesta);
   }
-
 }

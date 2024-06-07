@@ -1,0 +1,7 @@
+<div class="inicio-container">
+    <h1>Bienvenido al Trivial Game</h1>
+    <p>Selecciona una categoría para comenzar:</p>
+    <div class="categorias">
+        <button *ngFor="let categoria of categorias" (click)="startGame(categoria)">{{ categoria }}</button>
+    </div>
+</div>

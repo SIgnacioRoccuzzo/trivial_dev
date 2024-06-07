@@ -1,29 +1,32 @@
 .respuesta {
     text-align: center;
+    margin: 20px 0;
 }
 
 .respuesta h3 {
-    font-size: 20px;
-    color: #333;
-    margin-bottom: 10px;
+    font-size: 24px;
+    color: var(--text);
+    margin-bottom: 20px;
 }
 
 .respuesta button {
-    background-color: gray;
-    color: #fff;
-    padding: 10px 20px;
+    background-color: var(--primary);
+    color: var(--text);
+    padding: 15px 30px;
     margin: 5px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .respuesta button:hover {
-    background-color: rgb(70, 70, 121)
+    background-color: var(--accent);
+    transform: scale(1.05);
 }
 
-
 .respuesta button.selected {
-    background-color: #27ae60;
+    background-color: var(--secondary);
+    transform: scale(1.1);
 }

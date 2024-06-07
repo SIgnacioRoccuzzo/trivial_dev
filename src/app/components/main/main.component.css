@@ -1,16 +1,9 @@
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-
-}
-
-
 .trivial-container {
     text-align: center;
-    background-color: rgb(35, 28, 28);
+    background: var(--background);
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     max-width: 700px;
     margin: 0 auto;
 }
@@ -18,13 +11,13 @@ body {
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
-h1 {
-    color: white;
-    font-size: 70px;
-    margin: 20px 0;
+.header-container h1 {
+    color: var(--text);
+    font-size: 36px;
 }
 
 .logo {
@@ -34,48 +27,34 @@ h1 {
 }
 
 .preguntaActual {
-    background-color: #929982;
+    background-color: var(--secondary);
     padding: 20px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
 }
 
-lista-respuestas {
-    list-style: none;
-    padding: 0;
+.respuesta-container {
+    margin-top: 20px;
 }
 
-lista-respuestas li {
-    background-color: #EDCBB1;
-    margin: 10px 0;
-    padding: 15px;
+.lista-respuestas button {
+    background-color: var(--primary);
+    color: var(--text);
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
-lista-respuestas li:hover {
-    background-color: #002500;
+.lista-respuestas button:hover {
+    background-color: var(--accent);
+    transform: scale(1.05);
 }
-
-.animated {
-    animation-duration: 0.5s;
-    animation-fill-mode: both;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
 
 .feedback {
     margin-top: 20px;
@@ -91,36 +70,28 @@ lista-respuestas li:hover {
     padding: 10px;
     border-radius: 5px;
     color: #fff;
-}
-
-.respuesta-correcta.animated,
-.respuesta-incorrecta.animated {
-    display: block;
+    margin-top: 20px;
 }
 
 .respuesta-correcta {
-    background-color: #61E294;
-    animation-name: fadeIn;
+    background-color: #4caf50;
 }
 
 .respuesta-incorrecta {
-    background-color: #FF6B6B;
-    animation-name: fadeIn;
+    background-color: #f44336;
 }
 
-.feedback {
-    background-color: #2c3e50;
-    color: #ecf0f1;
-    padding: 150px;
-    border-radius: 10px;
-    margin-top: 20px;
-    font-size: 20px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s;
+.feedback .animated {
+    display: block;
+    animation: fadeIn 0.5s;
 }
 
-.feedback:hover {
-    background-color: #34495e;
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
 
+    to {
+        opacity: 1;
+    }
 }

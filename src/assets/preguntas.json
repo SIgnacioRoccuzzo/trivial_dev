@@ -1,0 +1,890 @@
+{
+    "Historia": [
+        {
+            "texto": "¿En qué año terminó la Segunda Guerra Mundial?",
+            "respuestas": [
+                "1940",
+                "1944",
+                "1945",
+                "1950"
+            ],
+            "correcta": "1945",
+            "puntuacion": 5
+        },
+        {
+            "texto": "¿Quién escribió 'Cien años de soledad'?",
+            "respuestas": [
+                "Gabriel García Márquez",
+                "Mario Vargas Llosa",
+                "Pablo Neruda",
+                "Jorge Luis Borges"
+            ],
+            "correcta": "Gabriel García Márquez",
+            "puntuacion": 5
+        },
+        {
+            "texto": "¿Quién fue el primer presidente de los Estados Unidos?",
+            "respuestas": [
+                "Abraham Lincoln",
+                "Thomas Jefferson",
+                "George Washington",
+                "John Adams"
+            ],
+            "correcta": "George Washington",
+            "puntuacion": 7
+        },
+        {
+            "texto": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
+            "respuestas": [
+                "1776",
+                "1789",
+                "1801",
+                "1824"
+            ],
+            "correcta": "1776",
+            "puntuacion": 10
+        },
+        {
+            "texto": "¿Quién fue conocido como 'El Libertador' en América del Sur?",
+            "respuestas": [
+                "Simón Bolívar",
+                "Che Guevara",
+                "José de San Martín",
+                "Francisco de Miranda"
+            ],
+            "correcta": "Simón Bolívar",
+            "puntuacion": 6
+        },
+        {
+            "texto": "¿En qué año se construyó la Gran Muralla China?",
+            "respuestas": [
+                "Siglo VII a.C.",
+                "Siglo III a.C.",
+                "Siglo I d.C.",
+                "Siglo V d.C."
+            ],
+            "correcta": "Siglo III a.C.",
+            "puntuacion": 8
+        },
+        {
+            "texto": "¿Qué guerra fue conocida como 'La Gran Guerra'?",
+            "respuestas": [
+                "Primera Guerra Mundial",
+                "Segunda Guerra Mundial",
+                "Guerra de Vietnam",
+                "Guerra de Corea"
+            ],
+            "correcta": "Primera Guerra Mundial",
+            "puntuacion": 4
+        },
+        {
+            "texto": "¿Quién descubrió América?",
+            "respuestas": [
+                "Cristóbal Colón",
+                "Vasco de Gama",
+                "Fernando de Magallanes",
+                "Hernán Cortés"
+            ],
+            "correcta": "Cristóbal Colón",
+            "puntuacion": 3
+        },
+        {
+            "texto": "¿Quién fue el líder de la Revolución Rusa de 1917?",
+            "respuestas": [
+                "Vladimir Lenin",
+                "Joseph Stalin",
+                "Leon Trotsky",
+                "Nikita Khrushchev"
+            ],
+            "correcta": "Vladimir Lenin",
+            "puntuacion": 5
+        },
+        {
+            "texto": "¿Cuál es la civilización antigua que construyó las pirámides?",
+            "respuestas": [
+                "Egipcia",
+                "Griega",
+                "Romana",
+                "Mesopotámica"
+            ],
+            "correcta": "Egipcia",
+            "puntuacion": 6
+        },
+        {
+            "texto": "¿En qué año cayó el Muro de Berlín?",
+            "respuestas": [
+                "1987",
+                "1989",
+                "1991",
+                "1993"
+            ],
+            "correcta": "1989",
+            "puntuacion": 7
+        },
+        {
+            "texto": "¿Quién fue el emperador romano durante el nacimiento de Jesucristo?",
+            "respuestas": [
+                "Nerón",
+                "Augusto",
+                "Tiberio",
+                "Calígula"
+            ],
+            "correcta": "Augusto",
+            "puntuacion": 8
+        },
+        {
+            "texto": "¿En qué batalla fue derrotado Napoleón Bonaparte?",
+            "respuestas": [
+                "Batalla de Trafalgar",
+                "Batalla de Waterloo",
+                "Batalla de Borodino",
+                "Batalla de Leipzig"
+            ],
+            "correcta": "Batalla de Waterloo",
+            "puntuacion": 6
+        },
+        {
+            "texto": "¿Qué tratado puso fin a la Primera Guerra Mundial?",
+            "respuestas": [
+                "Tratado de Versalles",
+                "Tratado de París",
+                "Tratado de Tordesillas",
+                "Tratado de Utrecht"
+            ],
+            "correcta": "Tratado de Versalles",
+            "puntuacion": 5
+        },
+        {
+            "texto": "¿Quién fue el primer presidente de Sudáfrica después del apartheid?",
+            "respuestas": [
+                "Nelson Mandela",
+                "Desmond Tutu",
+                "Jacob Zuma",
+                "Thabo Mbeki"
+            ],
+            "correcta": "Nelson Mandela",
+            "puntuacion": 8
+        },
+        {
+            "texto": "¿Cuál fue la primera civilización en utilizar la escritura?",
+            "respuestas": [
+                "Egipcia",
+                "Sumeria",
+                "Griega",
+                "Romana"
+            ],
+            "correcta": "Sumeria",
+            "puntuacion": 7
+        },
+        {
+            "texto": "¿Quién fue el líder nazi durante la Segunda Guerra Mundial?",
+            "respuestas": [
+                "Adolf Hitler",
+                "Heinrich Himmler",
+                "Joseph Goebbels",
+                "Hermann Göring"
+            ],
+            "correcta": "Adolf Hitler",
+            "puntuacion": 6
+        },
+        {
+            "texto": "¿Cuál fue el primer hombre en pisar la luna?",
+            "respuestas": [
+                "Yuri Gagarin",
+                "Buzz Aldrin",
+                "Neil Armstrong",
+                "Michael Collins"
+            ],
+            "correcta": "Neil Armstrong",
+            "puntuacion": 9
+        },
+        {
+            "texto": "¿En qué año se disolvió la Unión Soviética?",
+            "respuestas": [
+                "1989",
+                "1990",
+                "1991",
+                "1992"
+            ],
+            "correcta": "1991",
+            "puntuacion": 5
+        },
+        {
+            "texto": "¿Quién fue el líder del Imperio Mongol en su máxima expansión?",
+            "respuestas": [
+                "Kublai Khan",
+                "Genghis Khan",
+                "Ogedei Khan",
+                "Tamerlán"
+            ],
+            "correcta": "Genghis Khan",
+            "puntuacion": 7
+        }
+    ],
+    "Geografía": [
+        {
+            "texto": "¿Cuál es la capital de Francia?",
+            "respuestas": [
+                "París",
+                "Madrid",
+                "Berlín",
+                "Roma"
+            ],
+            "correcta": "París",
+            "puntuacion": 3
+        },
+        {
+            "texto": "¿Cuál es el río más largo del mundo?",
+            "respuestas": [
+                "Amazonas",
+                "Nilo",
+                "Yangtsé",
+                "Misisipi"
+            ],
+            "correcta": "Amazonas",
+            "puntuacion": 4
+        },
+        {
+            "texto": "¿Cuál es el desierto más grande del mundo?",
+            "respuestas": [
+                "Sahara",
+                "Gobi",
+                "Kalahari",
+                "Atacama"
+            ],
+            "correcta": "Sahara",
+            "puntuacion": 5
+        },
+        {
+            "texto": "¿En qué continente se encuentra el país de Egipto?",
+            "respuestas": [
+                "Asia",
+                "Europa",
+                "África",
+                "América"
+            ],
+            "correcta": "África",
+            "puntuacion": 3
+        },
+        {
+            "texto": "¿Cuál es el lago más grande del mundo?",
+            "respuestas": [
+                "Lago Superior",
+                "Lago Victoria",
+                "Lago Tanganica",
+                "Mar Caspio"
+            ],
+            "correcta": "Mar Caspio",
+            "puntuacion": 4
+        },
+        {
+            "texto": "¿Cuál es el país más poblado del mundo?",
+            "respuestas": [
+                "India",
+                "Estados Unidos",
+                "China",
+                "Indonesia"
+            ],
+            "correcta": "China",
+            "puntuacion": 5
+        },
+        {
+            "texto": "¿Cuál es la montaña más alta del mundo?",
+            "respuestas": [
+                "K2",
+                "Kangchenjunga",
+                "Lhotse",
+                "Monte Everest"
+            ],
+            "correcta": "Monte Everest",
+            "puntuacion": 7
+        },
+        {
+            "texto": "¿En qué país se encuentra la Torre Eiffel?",
+            "respuestas": [
+                "Italia",
+                "España",
+                "Francia",
+                "Reino Unido"
+            ],
+            "correcta": "Francia",
+            "puntuacion": 2
+        },
+        {
+            "texto": "¿Cuál es la capital de Japón?",
+            "respuestas": [
+                "Seúl",
+                "Pekín",
+                "Tokio",
+                "Bangkok"
+            ],
+            "correcta": "Tokio",
+            "puntuacion": 5
+        },
+        {
+            "texto": "¿Cuál es el océano más grande del mundo?",
+            "respuestas": [
+                "Océano Atlántico",
+                "Océano Índico",
+                "Océano Pacífico",
+                "Océano Ártico"
+            ],
+            "correcta": "Océano Pacífico",
+            "puntuacion": 8
+        },
+        {
+            "texto": "¿Cuál es el país más pequeño del mundo?",
+            "respuestas": [
+                "Mónaco",
+                "Nauru",
+                "San Marino",
+                "Ciudad del Vaticano"
+            ],
+            "correcta": "Ciudad del Vaticano",
+            "puntuacion": 4
+        },
+        {
+            "texto": "¿Cuál es la capital de Australia?",
+            "respuestas": [
+                "Sydney",
+                "Melbourne",
+                "Canberra",
+                "Brisbane"
+            ],
+            "correcta": "Canberra",
+            "puntuacion": 6
+        },
+        {
+            "texto": "¿En qué país se encuentra la Gran Muralla China?",
+            "respuestas": [
+                "China",
+                "Japón",
+                "Corea del Sur",
+                "Mongolia"
+            ],
+            "correcta": "China",
+            "puntuacion": 3
+        },
+        {
+            "texto": "¿Cuál es el río más largo de África?",
+            "respuestas": [
+                "Congo",
+                "Níger",
+                "Zambeze",
+                "Nilo"
+            ],
+            "correcta": "Nilo",
+            "puntuacion": 7
+        },
+        {
+            "texto": "¿Cuál es la capital de Canadá?",
+            "respuestas": [
+                "Toronto",
+                "Vancouver",
+                "Montreal",
+                "Ottawa"
+            ],
+            "correcta": "Ottawa",
+            "puntuacion": 5
+        },
+        {
+            "texto": "¿Cuál es el país más grande del mundo?",
+            "respuestas": [
+                "Estados Unidos",
+                "China",
+                "Brasil",
+                "Rusia"
+            ],
+            "correcta": "Rusia",
+            "puntuacion": 6
+        },
+        {
+            "texto": "¿Cuál es el desierto más seco del mundo?",
+            "respuestas": [
+                "Sahara",
+                "Gobi",
+                "Kalahari",
+                "Atacama"
+            ],
+            "correcta": "Atacama",
+            "puntuacion": 8
+        },
+        {
+            "texto": "¿Cuál es la capital de Brasil?",
+            "respuestas": [
+                "Buenos Aires",
+                "Lima",
+                "Brasilia",
+                "Río de Janeiro"
+            ],
+            "correcta": "Brasilia",
+            "puntuacion": 5
+        },
+        {
+            "texto": "¿Cuál es la isla más grande del mundo?",
+            "respuestas": [
+                "Groenlandia",
+                "Nueva Guinea",
+                "Borneo",
+                "Madagascar"
+            ],
+            "correcta": "Groenlandia",
+            "puntuacion": 4
+        },
+        {
+            "texto": "¿En qué país se encuentra el Machu Picchu?",
+            "respuestas": [
+                "México",
+                "Perú",
+                "Chile",
+                "Bolivia"
+            ],
+            "correcta": "Perú",
+            "puntuacion": 6
+        }
+    ],
+    "Ciencia": [
+        {
+            "texto": "¿Cuál es el elemento químico con símbolo O?",
+            "respuestas": [
+                "Oro",
+                "Oxígeno",
+                "Osmio",
+                "Olitio"
+            ],
+            "correcta": "Oxígeno",
+            "puntuacion": 3
+        },
+        {
+            "texto": "¿Cuál es el planeta más grande del sistema solar?",
+            "respuestas": [
+                "Tierra",
+                "Júpiter",
+                "Marte",
+                "Saturno"
+            ],
+            "correcta": "Júpiter",
+            "puntuacion": 4
+        },
+        {
+            "texto": "¿Cuál es la fórmula química del agua?",
+            "respuestas": [
+                "CO2",
+                "H2O",
+                "O2",
+                "NaCl"
+            ],
+            "correcta": "H2O",
+            "puntuacion": 3
+        },
+        {
+            "texto": "¿Cuál es el animal más grande del mundo?",
+            "respuestas": [
+                "Elefante africano",
+                "Ballena azul",
+                "Tiburón blanco",
+                "Rinoceronte"
+            ],
+            "correcta": "Ballena azul",
+            "puntuacion": 5
+        },
+        {
+            "texto": "¿Qué tipo de animal es un delfín?",
+            "respuestas": [
+                "Pez",
+                "Mamífero",
+                "Reptil",
+                "Anfibio"
+            ],
+            "correcta": "Mamífero",
+            "puntuacion": 4
+        },
+        {
+            "texto": "¿Cuál es el órgano más grande del cuerpo humano?",
+            "respuestas": [
+                "Cerebro",
+                "Hígado",
+                "Piel",
+                "Pulmones"
+            ],
+            "correcta": "Piel",
+            "puntuacion": 3
+        },
+        {
+            "texto": "¿Qué científico formuló la teoría de la relatividad?",
+            "respuestas": [
+                "Isaac Newton",
+                "Albert Einstein",
+                "Galileo Galilei",
+                "Niels Bohr"
+            ],
+            "correcta": "Albert Einstein",
+            "puntuacion": 6
+        },
+        {
+            "texto": "¿Cuál es el metal más abundante en la corteza terrestre?",
+            "respuestas": [
+                "Hierro",
+                "Aluminio",
+                "Cobre",
+                "Zinc"
+            ],
+            "correcta": "Aluminio",
+            "puntuacion": 5
+        },
+        {
+            "texto": "¿Qué gas es esencial para la respiración humana?",
+            "respuestas": [
+                "Nitrógeno",
+                "Oxígeno",
+                "Dióxido de carbono",
+                "Helio"
+            ],
+            "correcta": "Oxígeno",
+            "puntuacion": 2
+        },
+        {
+            "texto": "¿Cuál es la distancia media entre la Tierra y el Sol?",
+            "respuestas": [
+                "93 millones de millas",
+                "93 millones de kilómetros",
+                "150 millones de millas",
+                "150 millones de kilómetros"
+            ],
+            "correcta": "93 millones de millas",
+            "puntuacion": 7
+        },
+        {
+            "texto": "¿Qué partícula subatómica tiene una carga negativa?",
+            "respuestas": [
+                "Protón",
+                "Neutrón",
+                "Electrón",
+                "Quark"
+            ],
+            "correcta": "Electrón",
+            "puntuacion": 4
+        },
+        {
+            "texto": "¿Cuál es el proceso por el cual las plantas producen su alimento?",
+            "respuestas": [
+                "Respiración",
+                "Fotosíntesis",
+                "Digestión",
+                "Fermentación"
+            ],
+            "correcta": "Fotosíntesis",
+            "puntuacion": 3
+        },
+        {
+            "texto": "¿Qué planeta es conocido como el 'planeta rojo'?",
+            "respuestas": [
+                "Venus",
+                "Marte",
+                "Júpiter",
+                "Saturno"
+            ],
+            "correcta": "Marte",
+            "puntuacion": 4
+        },
+        {
+            "texto": "¿Qué tipo de estrella es el Sol?",
+            "respuestas": [
+                "Enana blanca",
+                "Gigante roja",
+                "Supergigante azul",
+                "Enana amarilla"
+            ],
+            "correcta": "Enana amarilla",
+            "puntuacion": 5
+        },
+        {
+            "texto": "¿Qué científico es conocido como el 'padre de la genética'?",
+            "respuestas": [
+                "Charles Darwin",
+                "Gregor Mendel",
+                "James Watson",
+                "Francis Crick"
+            ],
+            "correcta": "Gregor Mendel",
+            "puntuacion": 6
+        },
+        {
+            "texto": "¿Cuál es el planeta más cercano al Sol?",
+            "respuestas": [
+                "Venus",
+                "Marte",
+                "Mercurio",
+                "Tierra"
+            ],
+            "correcta": "Mercurio",
+            "puntuacion": 4
+        },
+        {
+            "texto": "¿Qué teoría explica el origen del universo?",
+            "respuestas": [
+                "Teoría de la evolución",
+                "Teoría del Big Bang",
+                "Teoría de la relatividad",
+                "Teoría de cuerdas"
+            ],
+            "correcta": "Teoría del Big Bang",
+            "puntuacion": 7
+        },
+        {
+            "texto": "¿Cuál es la fórmula química del dióxido de carbono?",
+            "respuestas": [
+                "CO",
+                "CO2",
+                "O2",
+                "CH4"
+            ],
+            "correcta": "CO2",
+            "puntuacion": 3
+        },
+        {
+            "texto": "¿Qué órgano humano se encarga de bombear sangre?",
+            "respuestas": [
+                "Pulmones",
+                "Hígado",
+                "Cerebro",
+                "Corazón"
+            ],
+            "correcta": "Corazón",
+            "puntuacion": 2
+        },
+        {
+            "texto": "¿Qué tipo de célula no tiene núcleo?",
+            "respuestas": [
+                "Célula animal",
+                "Célula vegetal",
+                "Célula procariota",
+                "Célula eucariota"
+            ],
+            "correcta": "Célula procariota",
+            "puntuacion": 8
+        }
+    ],
+    "Arte": [
+        {
+            "texto": "¿Quién escribió la obra de teatro 'Romeo y Julieta'?",
+            "respuestas": [
+                "William Shakespeare",
+                "Charles Dickens",
+                "Jane Austen",
+                "F. Scott Fitzgerald"
+            ],
+            "correcta": "William Shakespeare",
+            "puntuacion": 7
+        },
+        {
+            "texto": "¿Qué famosa pintura fue creada por Leonardo da Vinci?",
+            "respuestas": [
+                "La Última Cena",
+                "La Noche Estrellada",
+                "La Mona Lisa",
+                "Los Girasoles"
+            ],
+            "correcta": "La Mona Lisa",
+            "puntuacion": 7
+        },
+        {
+            "texto": "¿Quién pintó 'La Noche Estrellada'?",
+            "respuestas": [
+                "Pablo Picasso",
+                "Vincent van Gogh",
+                "Claude Monet",
+                "Salvador Dalí"
+            ],
+            "correcta": "Vincent van Gogh",
+            "puntuacion": 6
+        },
+        {
+            "texto": "¿Cuál es el estilo artístico de Pablo Picasso?",
+            "respuestas": [
+                "Impresionismo",
+                "Surrealismo",
+                "Cubismo",
+                "Romanticismo"
+            ],
+            "correcta": "Cubismo",
+            "puntuacion": 5
+        },
+        {
+            "texto": "¿Quién escribió 'Don Quijote de la Mancha'?",
+            "respuestas": [
+                "Gabriel García Márquez",
+                "Miguel de Cervantes",
+                "Pablo Neruda",
+                "Jorge Luis Borges"
+            ],
+            "correcta": "Miguel de Cervantes",
+            "puntuacion": 7
+        },
+        {
+            "texto": "¿Qué compositor es conocido como 'El padre de la sinfonía'?",
+            "respuestas": [
+                "Wolfgang Amadeus Mozart",
+                "Johann Sebastian Bach",
+                "Ludwig van Beethoven",
+                "Joseph Haydn"
+            ],
+            "correcta": "Joseph Haydn",
+            "puntuacion": 6
+        },
+        {
+            "texto": "¿Cuál es la obra más famosa de Auguste Rodin?",
+            "respuestas": [
+                "El Pensador",
+                "El Beso",
+                "La Puerta del Infierno",
+                "El Hombre que Camina"
+            ],
+            "correcta": "El Pensador",
+            "puntuacion": 5
+        },
+        {
+            "texto": "¿En qué año se inauguró el Museo del Louvre?",
+            "respuestas": [
+                "1793",
+                "1803",
+                "1813",
+                "1823"
+            ],
+            "correcta": "1793",
+            "puntuacion": 8
+        },
+        {
+            "texto": "¿Quién es el autor de 'La persistencia de la memoria'?",
+            "respuestas": [
+                "Pablo Picasso",
+                "Vincent van Gogh",
+                "Claude Monet",
+                "Salvador Dalí"
+            ],
+            "correcta": "Salvador Dalí",
+            "puntuacion": 7
+        },
+        {
+            "texto": "¿Qué escritor creó al personaje de Sherlock Holmes?",
+            "respuestas": [
+                "Agatha Christie",
+                "Arthur Conan Doyle",
+                "Edgar Allan Poe",
+                "Raymond Chandler"
+            ],
+            "correcta": "Arthur Conan Doyle",
+            "puntuacion": 5
+        },
+        {
+            "texto": "¿Quién es el autor de 'La Divina Comedia'?",
+            "respuestas": [
+                "Dante Alighieri",
+                "Geoffrey Chaucer",
+                "John Milton",
+                "William Blake"
+            ],
+            "correcta": "Dante Alighieri",
+            "puntuacion": 8
+        },
+        {
+            "texto": "¿Cuál es el nombre del pintor conocido por sus 'latas de sopa Campbell'?",
+            "respuestas": [
+                "Roy Lichtenstein",
+                "Andy Warhol",
+                "Jackson Pollock",
+                "Jean-Michel Basquiat"
+            ],
+            "correcta": "Andy Warhol",
+            "puntuacion": 6
+        },
+        {
+            "texto": "¿Qué estilo artístico es característico de Salvador Dalí?",
+            "respuestas": [
+                "Impresionismo",
+                "Surrealismo",
+                "Cubismo",
+                "Romanticismo"
+            ],
+            "correcta": "Surrealismo",
+            "puntuacion": 5
+        },
+        {
+            "texto": "¿Quién escribió la obra 'Hamlet'?",
+            "respuestas": [
+                "William Shakespeare",
+                "Christopher Marlowe",
+                "Ben Jonson",
+                "John Webster"
+            ],
+            "correcta": "William Shakespeare",
+            "puntuacion": 7
+        },
+        {
+            "texto": "¿Cuál es el nombre del famoso ballet de Tchaikovsky?",
+            "respuestas": [
+                "El Lago de los Cisnes",
+                "La Bella Durmiente",
+                "Cascanueces",
+                "Don Quijote"
+            ],
+            "correcta": "El Lago de los Cisnes",
+            "puntuacion": 6
+        },
+        {
+            "texto": "¿Quién pintó 'El Grito'?",
+            "respuestas": [
+                "Edvard Munch",
+                "Gustav Klimt",
+                "Francisco Goya",
+                "Diego Velázquez"
+            ],
+            "correcta": "Edvard Munch",
+            "puntuacion": 8
+        },
+        {
+            "texto": "¿Qué autor escribió '1984' y 'Rebelión en la granja'?",
+            "respuestas": [
+                "Aldous Huxley",
+                "Ray Bradbury",
+                "George Orwell",
+                "Kurt Vonnegut"
+            ],
+            "correcta": "George Orwell",
+            "puntuacion": 7
+        },
+        {
+            "texto": "¿Quién es conocido como el 'padre de la arquitectura moderna'?",
+            "respuestas": [
+                "Frank Lloyd Wright",
+                "Le Corbusier",
+                "Louis Sullivan",
+                "Walter Gropius"
+            ],
+            "correcta": "Louis Sullivan",
+            "puntuacion": 5
+        },
+        {
+            "texto": "¿Qué artista pintó el 'Techo de la Capilla Sixtina'?",
+            "respuestas": [
+                "Leonardo da Vinci",
+                "Rafael",
+                "Michelangelo",
+                "Caravaggio"
+            ],
+            "correcta": "Michelangelo",
+            "puntuacion": 8
+        },
+        {
+            "texto": "¿Quién compuso la 'Novena Sinfonía'?",
+            "respuestas": [
+                "Ludwig van Beethoven",
+                "Wolfgang Amadeus Mozart",
+                "Johann Sebastian Bach",
+                "Franz Schubert"
+            ],
+            "correcta": "Ludwig van Beethoven",
+            "puntuacion": 9
+        }
+    ]
+}

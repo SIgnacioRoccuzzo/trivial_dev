@@ -1,3 +1,24 @@
+:root {
+    --text: #02111c;
+    --background: #f8fbfe;
+    --primary: #29a1ef;
+    --secondary: #f5e17c;
+    --accent: #5ff14c;
+    --linearPrimarySecondary: linear-gradient(#29a1ef, #f5e17c);
+    --linearPrimaryAccent: linear-gradient(#29a1ef, #5ff14c);
+    --linearSecondaryAccent: linear-gradient(#f5e17c, #5ff14c);
+    --radialPrimarySecondary: radial-gradient(#29a1ef, #f5e17c);
+    --radialPrimaryAccent: radial-gradient(#29a1ef, #5ff14c);
+    --radialSecondaryAccent: radial-gradient(#f5e17c, #5ff14c);
+}
+
 body {
-    background-color: black;
+    background: var(--linearPrimarySecondary);
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: var(--text);
 }
